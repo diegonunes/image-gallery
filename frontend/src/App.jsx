@@ -1,9 +1,12 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header.jsx';
+
 function App() {
 
   return (
-      <>
-        <h1>Images Gallery</h1>
-      </>
+      <div>
+        <Header title="Images Gallery"/>
+      </div>
   );
 }
 
